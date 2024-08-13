@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Signika+Negative:wght@300..700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    scroll-behavior: smooth;
+    text-decoration: none;
+    color: #0C1844;
+  font-family: "Signika Negative", sans-serif;
+}
+
+body,html{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #0C1844;
+}
+.container{
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    border-radius: 8px;
+    background: #FFF5E1;
+    padding: 40px;
+}
+.container h1{
+    font-size: 48px;
+    font-weight: 800;
+}
+.container p{
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.container #startGame{
+    background-color: #C80036;
+    color: #FFF5E1;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 20px;
+    font-size: 22px;
+    font-weight: 600;
+    cursor: pointer;
+    margin-top: 20px;
+}
+#btnsContainer button{
+    background-color: #C80036;
+    color: #FFF5E1;
+    padding: 10px 20px;
+    font-size: 22px;
+}
