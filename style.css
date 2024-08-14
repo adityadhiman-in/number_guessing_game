@@ -45,9 +45,32 @@ body,html{
     cursor: pointer;
     margin-top: 20px;
 }
-#btnsContainer button{
+.btnsContainer{
+    margin-top: 50px;
+}
+.btnsContainer button{
     background-color: #C80036;
     color: #FFF5E1;
     padding: 10px 20px;
     font-size: 22px;
+    border: none;
+    border-radius: 4px;
+    margin-right: 10px;
+    display: none;
+    cursor: pointer;
+}
+#playAgain{
+    display: none;
+    background-color: #C80036;
+    color: #FFF5E1;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 20px;
+    font-size: 22px;
+    font-weight: 600;
+    cursor: pointer;
+    margin-top: 20px;
+}
+.alert{
+    margin-top: 20px;
 }
